@@ -1,9 +1,9 @@
 pkg update && pkg upgrade
 
-pkg install sox mvp -y
+pkg install python
 
-git clone https://github.com/DixVolz/Tools-ZG
+git clone https://github.com/DixVolz/ALL-MODULE-TERMUX
 
-cd Tools-ZG
+cd ALL-MODULE-TERMUX
 
-bash Run.sh
+python install_all_module_termux.py
